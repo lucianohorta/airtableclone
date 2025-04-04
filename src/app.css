@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.timeline-card {
+  transition: all 0.2s ease;
+}
+
+.timeline-card:hover {
+  z-index: 20;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
